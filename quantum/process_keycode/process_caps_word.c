@@ -71,6 +71,7 @@ static bool handle_shift(uint16_t keycode, keyrecord_t* record) {
 }
 #endif // CAPS_WORD_INVERT_ON_SHIFT
 
+#include "print.h"
 bool process_caps_word(uint16_t keycode, keyrecord_t* record) {
     if (keycode == QK_CAPS_WORD_TOGGLE) {
         if (record->event.pressed) {
