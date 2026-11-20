@@ -120,3 +120,6 @@ compile_commands.json
 via*.json
 /keyboards/**/keymaps/via/*
 /keyboards/**/keymaps/vial/*
+
+# Personal keymap lives in ~/Projects/qmk_planck and is symlinked here
+/keyboards/planck/rev7/keymaps/bilbofroggins
